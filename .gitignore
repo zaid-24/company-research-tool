@@ -1,0 +1,21 @@
+# Environment and secrets
+
+reports/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environment
+.venv/
+
+# IDE and OS
+.vscode/
+.DS_Store
+
+# Frontend
+node_modules/
+
+# LangGraph
+.langgraph/
