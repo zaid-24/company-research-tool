@@ -1,7 +1,5 @@
 # Agentic Company Researcher Tool Kit
 
-![web ui](<static/ui-1.png>)
-
 A multi-agent tool that generates comprehensive company research reports. The platform uses a pipeline of AI agents to gather, curate, and synthesize information about any company.
 
 ## Features
@@ -16,6 +14,8 @@ A multi-agent tool that generates comprehensive company research reports. The pl
 - **Competitor Deep Dive**: Provide specific competitors for targeted comparative analysis.
 - **Modern React Frontend**: Responsive UI with progress tracking, PDF, and Markdown download options.
 - **Modular Architecture**: Built using a pipeline of specialized research and processing nodes
+
+<img src="static/ui-1.png" alt="web ui" style="width:70%;"/>
 
 ## Agent Framework
 
@@ -79,7 +79,8 @@ The platform uses a content filtering system in `curator.py`:
 
 The platform implements a simple polling-based communication system:
 
-![web ui](<static/ui-2.png>)
+
+<img src="static/ui-2.png" alt="web ui" style="width:80%;"/>
 
 1. **Backend Implementation**:
    - Uses FastAPI with async support
@@ -299,11 +300,3 @@ The application can be deployed to various cloud platforms. Here are some common
    eb create tavily-research-prod
    ```
 Choose the platform that best suits your needs. The application is platform-agnostic and can be hosted anywhere that supports Python web applications.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
